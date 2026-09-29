@@ -1,0 +1,434 @@
+/*-- Dette er mitt svar på Oppgave 2 --*/
+
+body {
+    margin: 0%;
+}
+/*-- Skrifttyper --*/
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.instrument-serif-regular-italic-red {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #71091A;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 5%;
+    font-family: 'Instument Serif';
+}
+
+h2 {
+    font-size: 3rem;
+    letter-spacing: 5%;
+    font-family: 'Instument Serif';
+}
+
+h3 {
+    font-size: 2.25rem;
+    font-family: 'Instument Serif';
+}
+
+h4 {
+    font-size: 1.5rem;
+    letter-spacing: 5%;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+p {
+   font-family: 'Inter'; 
+}
+
+li {
+   font-family: 'Inter'; 
+}
+
+.pris {
+    font-family: 1.125rem;
+    font-weight: 1000;
+    color: black;
+}
+
+a {
+    font-family: 'Inter';
+    text-decoration: none;
+}
+
+.Size {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  width: 50px;
+  
+}
+
+.SizeSpesification {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    width: 100px;
+}
+
+.SizeNumber {
+    font-family: 'Inter';
+    font-size: 1rem;
+}
+
+.WhiteText {
+    color: white;
+}
+
+.WhiteText:hover {
+    text-decoration-line: underline;
+}
+
+.BlackText {
+    color: black;
+}
+
+.allign{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.allignItems {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+    margin-right: 5%;
+}
+
+.devide {
+    margin: 5%;
+}
+
+/*-- Headder --*/
+
+.headder {
+    background-color: #F5EBEE;
+    color: #71091A;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bi-bi-cart2 {
+    height: 40px;
+    width: 40px;
+    color: #71091A;
+}
+
+.profilbilde {
+    height: 45px;
+    min-width: 45px;
+    border-radius: 45px;
+    object-fit: cover;
+    margin-left: 5%;
+}
+
+/*--- Kategoriheader --*/
+
+.Kategoriheader {
+    background-color: #71091A;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navtext {
+    min-width: 821px;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*--HeroCard--*/
+.Herocard {
+    position: relative;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.HeroText {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#heroimg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 100% 5%;
+}
+
+.PageObjectAllignment{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.SpaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produktbilde {
+    width: 250px;
+    height: 292px;
+    object-fit: cover;
+    object-position: 60% 100%;
+}
+
+.MarginBottom {
+    margin-bottom: 5%;
+}
+
+/*-- Footer --*/
+
+.footer {
+    background-color: #0C1333;
+    min-height: 300px;
+    color: white;
+}
+
+.FooterAlignment {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.FooterCategories {
+    display: flex;
+
+}
+
+.Alternativer {
+    color: #8899BB;
+}
+
+.MarginAround {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 300px;
+}
+
+/*--Handlekurvssiden--*/
+
+.handlekurvsbilde {
+    width: 200px;
+    height: 222px;
+    object-fit: cover;
+    object-position: 60% 100%;
+    margin-right: 38px;
+}
+
+.VannrettLinje {
+    height: 2px;
+    width: 100%;
+    background-color: #71091A;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.handlevognContentflex {
+    display: flex;
+    background-color: #F5EBEE;
+    margin: 2%;
+}
+
+.DinOrdre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    margin: 2%;
+}
+
+.Entildiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*--Knapper på alle sidene --*/
+.kolleksjonsknapp {
+    color: #71091A;
+    height: 44px;
+    width: 173px;
+    background-color: white;
+    border: none;
+}
+
+.kolleksjonsknapp:hover {
+    color: white;
+    height: 44px;
+    width: 173px;
+    background-color: #71091A;
+    border: none;
+}
+
+.HandlekurvsKnapp {
+    background-color: white;
+    color: black;
+    height: 60px;
+    border-radius: 75px;
+    border: solid;
+}
+
+.HandlekurvsKnapp:hover {
+    background-color: #0C1333;
+    color: white;
+    border: none;
+}
+
+.FjernKnapp {
+    width: 174px;
+    height: 44px;
+    background-color: #F5EBEE;
+    border: solid 2px black;
+    border-radius: 8px;
+}
+
+.FjernKnapp:hover {
+    color: #8899BB;
+    border: solid 2px #8899BB;
+}
+
+.Checkout {
+    height: 45px;
+    width: 50%;
+    margin-bottom: 2%;
+    border-radius: 45px;
+    background-color: #71091A;
+    color: white;
+    border: none;
+}
+
+.Checkout:hover {
+    background-color: #0C1333;
+}
+
+.keepOnShopping {
+    height: 45px;
+    width: 50%;
+    border-radius: 45px;
+    background-color: #F5EBEE;
+    color: #71091A;
+    border: solid 2px #71091A;
+}
+
+.keepOnShopping:hover {
+    background-color: white;
+}
+
+/*--Selve Produktvisningen og informasjonen til den--*/
+.PageObjectAllignmentProduct{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.PageObjectAllignmentProduct2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.ProduktVisningBilde {
+    height: 680px;
+    width: 508px;
+    object-fit: cover;
+    object-position: 60% 100%;
+}
+
+.ProduktSnapshot {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.ColorPicker {
+    width: 54px;
+    height: 54px;
+    border-radius: 54px;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+#ColorRed {
+    background-color: #71091A;
+}
+
+#ColorBlue {
+    background-color: #0C1333;
+}
+
+#ColorLightBlue {
+    background-color: #8899BB;
+}
+
+#ColorPink {
+    background-color: #F5EBEE;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexColors {
+    display: flex;
+}
+
+.ProductInformation {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.Justere {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Størrelse {
+    height: 60px;
+    width: 100%;
+    background-color: #F5EBEE;
+    border: none;
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+
+#Størrelsetabell {
+    background-color: #F5EBEE;
+    padding: 2%;
+    width: auto;
+}

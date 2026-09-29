@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Oppgave2CSSfil.css">
+    <link rel="stylesheet" href="atmedia.css">
+</head>
+
+<body>
+    <!--Dette er min besvarelse for oppgave 1 og 2 av HTML og CSS oppgaven. Jeg synes at flexbox er enklest å bruke så min oppgave er DIV delux.-->
+    <!--Jeg håper at det ikke er fo vanskelig å lese. There is a point to my madness. Jeg har kategorisert de forskjellige elementene mine slik at det skal være enklere å lese-->
+    <!--Headderen, kategoriene og footeren var laget slik at de kunne kopieres og vere lik på alle sidene. Her har jeg valgt å bruke en SVG fra Bootstrap biblioteket for handlevognen-->
+    <!--Logoen linker til forsiden mens handlevognen/Diven med SVG linker til handlevognen som er en av sidenen mine-->
+    <!--Det er en CSS fil linket til siden, i tillegg til noen font, men de får du se på CSS oppgaven-->
+    <!--Lykke til :D-->
+
+    <!--Headder-->
+    <header>
+        <div class="headder"> 
+            <div class="allign">
+                <a href="Index.html"><h2 class="instrument-serif-regular-italic-red">SundtSøm</h2></a>
+                <div class="allignItems">
+                    <a href="Handlekurv.html">
+                        <div>
+                            <!--Shopping cart-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-cart2" viewBox="0 0 16 16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <img class="profilbilde" src="Bilder/Meeeg.jpg" alt="profilbilde">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Kategorier på Nettbutikken, leder til produktene-->
+    <div class="Kategoriheader">
+        <div>
+            <div class="navtext">
+                <a class="WhiteText" href="Produkter.html">Nyheter</a>
+                <a class="WhiteText" href="Produkter.html">Outlet</a>
+                <a class="WhiteText" href="Produkter.html">Salg</a>
+                <a class="WhiteText" href="Produkter.html">Overdeler</a>
+                <a class="WhiteText" href="Produkter.html">Bukser</a>
+            </div>
+            <div class="navtext">
+                <a class="WhiteText" href="Produkter.html">Strikk</a>
+                <a class="WhiteText" href="Produkter.html">Kjoler</a>
+                <a class="WhiteText" href="Produkter.html">Skjørt</a>
+                <a class="WhiteText" href="Produkter.html">Jakker</a>
+                <a class="WhiteText" href="Produkter.html">Tilbehør</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Hero card-->
+    <div class="Herocard" >
+        <div>
+            <img id='heroimg' src="Bilder/Gemini_Generated_Image_5ol4c95ol4c95ol4.jpeg" alt="dame i grønn jakke">
+            <div class="HeroText">
+                <h1 class="instrument-serif-regular-italic">Klar for Studiestart</h1>
+                <h3 class="instrument-serif-regular">Skjekk ut våre nyheter</h3>
+                <button type="button" class="kolleksjonsknapp" onclick="window.location.href='Produkter.html'"><p>Se Kolleksjonen</p></button>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Produktvisning-->
+    <div class="MarginBottom">
+        <div class="PageObjectAllignment">
+            <div>
+                <h3 class="instrument-serif-regular" id="HNyheter">Høstens Nyheter</h3>
+            </div>
+            <div class="SpaceBetween">
+                <a href="Produktvisning.html">
+                    <div class="mediaFlex">
+                        <img class="produktbilde" src="Bilder/Gemini_Generated_Image_vbjzyfvbjzyfvbjz.jpeg" alt="jente i genser"></img>
+                        <div>
+                            <h4 class="BlackText">Jenny Genseren</h4>
+                            <p class="pris">2 000 kr</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="Produktvisning.html">
+                    <div class="mediaFlex">
+                            <img class="produktbilde" src="Bilder/Gemini_Generated_Image_ratjz9ratjz9ratj.jpeg" alt="jente i jakke">
+                            <div>
+                                <h4 class="BlackText">Hanne Jakken</h4>
+                                <p class="pris">3 500 kr</p>
+                            </div>
+                    </div>
+                </a>
+                <a href="Produktvisning.html">
+                    <div class="mediaFlex">
+                        <img class="produktbilde" src="Bilder/Gemini_Generated_Image_phpf0vphpf0vphpf.jpeg" alt="veske">
+                        <div>
+                            <h4 class="BlackText">Else Vesken</h4>
+                            <p class="pris">700 kr</p>
+                        </div>
+                        
+                    </div>
+                </a>
+                <a href="Produktvisning.html">
+                    <div class="mediaFlex">
+                        <img class="produktbilde" src="Bilder/Gemini_Generated_Image_t9qbewt9qbewt9qb.jpeg" alt="Sko">
+                        <div>
+                            <h4 class="BlackText">Line Lofers</h4>
+                            <p class="pris">1 200 kr</p>
+                        </div>
+                    </div>
+                </a>
+            </div>    
+        </div>
+    </div>
+
+      <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="FooterAlignment">
+                <!--Logo div-->
+                <div>
+                    <h1 class="instrument-serif-regular-italic">SundtSøm</h1>
+                </div>
+                <div class="FooterCategories">
+                    <div class="MarginAround">
+                        <h3 class="instrument-serif-regular">Butikk</h3>
+                        <p class="Alternativer">Nyheter</p>
+                        <p class="Alternativer">Bestselgere</p>
+                        <p class="Alternativer">Salg</p>
+                    </div>
+                    <div class="MarginAround">
+                        <h3 class="instrument-serif-regular">Hjelp</h3>
+                        <p class="Alternativer">Størrelseguide</p>
+                        <p class="Alternativer">Frakt og retur</p>
+                        <p class="Alternativer">Kundeservice</p>
+                    </div>
+                    <div class="MarginAround">
+                        <h3 class="instrument-serif-regular">Om Oss</h3>
+                        <p class="Alternativer">Hvem er vi?</p>
+                        <p class="Alternativer">Bærekraft</p>
+                        <p class="Alternativer">Personvern</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

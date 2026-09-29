@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Oppgave2CSSfil.css">
+    <link rel="stylesheet" href="atmedia.css">
+</head>
+
+<body>
+    <!--Headder-->
+    <header>
+        <div class="headder"> 
+            <div class="allign">
+                <a href="Index.html"><h2 class="instrument-serif-regular-italic-red">SundtSøm</h2></a>
+                <div class="allignItems">
+                    <a href="Handlekurv.html">
+                        <div>
+                            <!--Shopping cart-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-cart2" viewBox="0 0 16 16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <img class="profilbilde" src="Bilder/Meeeg.jpg" alt="profilbilde">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Kategorier på Nettbutikken, leder til produktene-->
+   <div class="Kategoriheader">
+        <div>
+            <div class="navtext">
+                <a class="WhiteText" href="Produkter.html">Nyheter</a>
+                <a class="WhiteText" href="Produkter.html">Outlet</a>
+                <a class="WhiteText" href="Produkter.html">Salg</a>
+                <a class="WhiteText" href="Produkter.html">Overdeler</a>
+                <a class="WhiteText" href="Produkter.html">Bukser</a>
+            </div>
+            <div class="navtext">
+                <a class="WhiteText" href="Produkter.html">Strikk</a>
+                <a class="WhiteText" href="Produkter.html">Kjoler</a>
+                <a class="WhiteText" href="Produkter.html">Skjørt</a>
+                <a class="WhiteText" href="Produkter.html">Jakker</a>
+                <a class="WhiteText" href="Produkter.html">Tilbehør</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Produktvisning-->
+    <div class="PageObjectAllignmentProduct">
+        <div class="flex">
+            <div>
+                <img class="ProduktVisningBilde" src="Bilder/Gemini_Generated_Image_ratjz9ratjz9ratj.jpeg" alt="Jente i jakke">
+                    <div class="Justere">
+                        <img class="ProduktSnapshot" src="Bilder/Gemini_Generated_Image_vdmbjgvdmbjgvdmb.jpeg" alt="Jakke i rød">
+                        <img class="ProduktSnapshot" src="Bilder/Gemini_Generated_Image_bi5opsbi5opsbi5o.jpeg" alt="Jakke i blå">
+                        <img class="ProduktSnapshot" src="Bilder/Gemini_Generated_Image_dlbeeldlbeeldlbe.jpeg" alt="Jakke i lys blå">
+                        <img class="ProduktSnapshot" src="Bilder/Gemini_Generated_Image_5xrsdx5xrsdx5xrs.jpeg" alt="Jakke i rosa">
+                    </div>
+            </div>
+            <div class="ProductInformation">
+                <h3 class="instrument-serif-regular">Hanne Jakken</h3>
+                <p class="pris">3 500 kr</p>
+                <div>
+                    <p>Farge : Karamell</p>
+                    <div class="flexColors">
+                        <div class="ColorPicker" id="ColorRed"></div>
+                        <div class="ColorPicker" id="ColorBlue"></div>
+                        <div class="ColorPicker" id="ColorLightBlue"></div>
+                        <div class="ColorPicker" id="ColorPink"></div>
+                    </div>    
+                </div>
+                <div>
+                    <p>Velg Størrelse</p>
+                    <select name="Velg Størrelse" id="Størrelse">
+                        <option value="34">34</option>
+                        <option value="36">36</option>
+                        <option value="38">38</option>
+                        <option value="40">40</option>
+                        <option value="42">42</option>
+                        <option value="44">44</option>
+                    </select>
+                </div>
+                <button type="button" class="HandlekurvsKnapp" onclick="window.location.href='Handlekurv.html'">Legg i Handlekurven</button>
+                <div>
+                    <h4>Produktbeskrivelse</h4>
+                    <p>Ice cream dessert danish donut jelly-o. Icing candy lollipop chocolate bonbon jujubes brownie dragée. Lemon drops cheesecake chupa chups cake wafer bear claw candy.<br><br>
+
+                    Halvah cake tart chocolate cake tart cookie cake sweet. Sweet roll cheesecake gummi bears cotton candy halvah cupcake pie candy cake. Pastry sesame snaps muffin pastry pudding. Gummi bears chocolate biscuit marshmallow chocolate cake toffee.<br><br>
+
+                    Muffin danish lollipop topping cotton candy pudding tart pastry. Sugar plum topping marzipan sweet roll jelly-o bear claw chocolate bar. Dragée cupcake danish jelly donut.<br><br></p>
+                    <ul>
+                        <li>Ytterstoff: 70% ull</li>
+                        <li>Fòr: 100% Acetat </li>
+                        <li>Gratis frakt over 1 000 kr</li>
+                    </ul>
+                    <div>
+                        <!--Størrelsetabell her-->
+                        <h4>Størrelsestabell</h4>
+                        <div id="Størrelsetabell">
+                            <table>
+                                <tr>
+                                    <th class="SizeSpesification">EU</th>
+                                    <th class="Size">34</th>
+                                    <th class="Size">36</th>
+                                    <th class="Size">38</th>
+                                    <th class="Size">40</th>
+                                    <th class="Size">42</th>
+                                    <th class="Size">44</th>
+                                </tr>
+                                <tr>
+                                    <th class="SizeSpesification">Overdel, cm</th>
+                                    <th class="SizeNumber">82</th>
+                                    <th class="SizeNumber">86</th>
+                                    <th class="SizeNumber">90</th>
+                                    <th class="SizeNumber">94</th>
+                                    <th class="SizeNumber">98</th>
+                                    <th class="SizeNumber">102</th>
+                                </tr>
+                                <tr>
+                                    <th class="SizeSpesification">Midje, cm</th>
+                                    <th class="SizeNumber">66</th>
+                                    <th class="SizeNumber">70</th>
+                                    <th class="SizeNumber">74</th>
+                                    <th class="SizeNumber">78</th>
+                                    <th class="SizeNumber">82</th>
+                                    <th class="SizeNumber">86</th>
+                                </tr>
+                                <tr>
+                                    <th class="SizeSpesification">Hofte, cm</th>
+                                    <th class="SizeNumber">94</th>
+                                    <th class="SizeNumber">98</th>
+                                    <th class="SizeNumber">102</th>
+                                    <th class="SizeNumber">106</th>
+                                    <th class="SizeNumber">110</th>
+                                    <th class="SizeNumber">114</th>
+                                </tr>
+                            </table>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Andre Alternativer-->
+    <div class="PageObjectAllignmentProduct2">
+            <div>
+                <h3 class="instrument-serif-regular" id="Alternativer">Andre Alternativer</h3>
+            </div>
+            <div class="SpaceBetween">
+                <nav>
+                    <div class="mediaFlex">
+                        <img class="produktbilde" src="Bilder/Gemini_Generated_Image_vbjzyfvbjzyfvbjz.jpeg" alt="jente i genser"></img>
+                        <div>
+                            <h4>Jenny Genseren</h4>
+                            <p class="pris">2 000 kr</p>
+                        </div>
+                    </div>
+                </nav>
+                <nav>
+                    <div class="mediaFlex">
+                        <img class="produktbilde" src="Bilder/Gemini_Generated_Image_ratjz9ratjz9ratj.jpeg" alt="jente i jakke">
+                        <div>
+                            <h4>Hanne Jakken</h4>
+                            <p class="pris">3 500 kr</p>
+                        </div>
+                    </div>
+                </nav>
+                <nav>
+                    <div class="mediaFlex">
+                        <img class="produktbilde" src="Bilder/Gemini_Generated_Image_phpf0vphpf0vphpf.jpeg" alt="veske">
+                        <div>
+                            <h4>Else Vesken</h4>
+                            <p class="pris">700 kr</p>
+                        </div>
+                    </div>
+                </nav>
+                <nav>
+                    <div class="mediaFlex">
+                        <img class="produktbilde" src="Bilder/Gemini_Generated_Image_t9qbewt9qbewt9qb.jpeg" alt="Sko">
+                        <div>
+                            <h4>Line Lofers</h4>
+                            <p class="pris">1 200 kr</p>
+                        </div>
+                    </div>
+                </nav>
+            </div>    
+        </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="FooterAlignment">
+                <!--Logo div-->
+                <div>
+                    <h1 class="instrument-serif-regular-italic">SundtSøm</h1>
+                </div>
+                <div class="FooterCategories">
+                    <div class="MarginAround">
+                        <h3 class="instrument-serif-regular">Butikk</h3>
+                        <p class="Alternativer">Nyheter</p>
+                        <p class="Alternativer">Bestselgere</p>
+                        <p class="Alternativer">Salg</p>
+                    </div>
+                    <div class="MarginAround">
+                        <h3 class="instrument-serif-regular">Hjelp</h3>
+                        <p class="Alternativer">Størrelseguide</p>
+                        <p class="Alternativer">Frakt og retur</p>
+                        <p class="Alternativer">Kundeservice</p>
+                    </div>
+                    <div class="MarginAround">
+                        <h3 class="instrument-serif-regular">Om Oss</h3>
+                        <p class="Alternativer">Hvem er vi?</p>
+                        <p class="Alternativer">Bærekraft</p>
+                        <p class="Alternativer">Personvern</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

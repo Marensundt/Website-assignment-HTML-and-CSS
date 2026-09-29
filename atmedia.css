@@ -1,0 +1,588 @@
+
+/*--Denne viser @Media på større skjermer--*/
+
+/*--@Media over 1560px--*/
+@media screen and (min-width: 1400px) {
+    .SpaceBetween {
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #Nyheter {
+        width: 1120px;
+    }
+
+    #HNyheter {
+        width: 1120px;
+    }
+
+    #Alternativer {
+        width: 1120px;
+    }
+
+    #Handle {
+        width: 1120px;
+    }
+
+    .PageObjectAllignment{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .PageObjectAllignmentProduct {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .PageObjectAllignmentProduct2 {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex {
+        width: 1120px;
+    }
+
+    #handlevognContentstørrelse {
+        width: 1120px;
+    }
+
+}
+
+/*--Her viser @Media på mindre skjermer--*/
+
+/*--@Media under 1340px--*/
+
+@media screen and (max-width: 1340px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    .navtext {
+        min-width: 500px;
+        min-height: 75px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #heroimg {
+        width: 100%;
+        max-height: 450px;
+        object-fit: cover;
+        object-position: 100% 5%;
+    }
+
+    .HeroText {
+        position: absolute;
+        top: 55%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .PageObjectAllignment{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .SpaceBetween{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .MarginAround {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 200px;
+    }
+
+    .produktbilde {
+        width: 400px;
+        height: 450px;
+    }
+
+    /*--produktvisning--*/
+    .ProduktVisningBilde {
+        width: 350px;
+        height: 400px;
+    }
+
+    .ProduktSnapshot {
+        width: 24%;
+        height: 75px;
+    }
+
+    .ColorPicker {
+        width: 40px;
+        height: 40px;
+    }
+
+    #Størrelse{ 
+        height: 55px;
+    }
+
+    .HandlekurvsKnapp {
+        height: 55px;
+    }
+
+    .footer {
+        min-height: 275px;
+    }
+}
+
+/*--@Media under 1000px--*/
+/*--Mellom 1000 og 900 px regner jeg med at det hadde sett bedre ut om en av produktkortene var fjernet, eller om det hadde vært en karrusell istedenfor generellt sett--*/
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 3rem;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+    a {
+        font-size: 0.75rem;
+    }
+
+    .pris {
+        font-size: 0.90rem;
+    }
+
+    .headder {
+        height: 70px;
+    }
+
+    .Kategoriheader {
+        background-color: #71091A;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navtext {
+        min-width: 500px;
+        min-height: 45px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #heroimg {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: 100% 5%;
+    }
+
+    .HeroText {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .PageObjectAllignment{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .SpaceBetween{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer {
+        min-height: 275px;
+    }
+
+    .FooterAlignment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+
+    .MarginAround {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 150px;
+    }
+
+    .produktbilde {
+        width: 400px;
+        height: 450px;
+    }
+
+    .SpaceBetween{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .mediaFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Size {
+       font-size: 1rem 
+    }
+
+    .SizeSpesification {
+       font-size: 1rem 
+    }
+
+    .SizeNumber {
+    font-size: 0.75rem;
+    }
+
+    li {
+        font-size: 0.75rem;
+    }
+
+    .Checkout {
+        width: 70%;
+    }
+
+    .keepOnShopping {
+        width: 70%;
+    }
+}
+
+/*--@Media under 800px--*/
+
+@media screen and (max-width: 800px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .ProduktVisningBilde {
+        width: 100%;
+        height: 350px;
+    }
+
+    .PageObjectAllignmentProduct {;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .ProductInformation {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .handlevognContentflex {
+        flex-direction: column;
+    }     
+
+    .DinOrdre {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .Checkout {
+        width: 95%;
+    }
+
+    .keepOnShopping {
+        width: 95%;
+    }
+}
+
+/*--@Media under 600px--*/
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 2.25rem;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+    a {
+        font-size: 0.75rem;
+        
+    }
+
+    .pris {
+        font-size: 0.90rem;
+    }
+
+    .headder {
+        height: 70px;
+    }
+
+    .bi-bi-cart2 {
+    height: 30px;
+    width: 30px;
+    }
+
+    .profilbilde {
+    height: 30px;
+    min-width: 30px;
+    }
+
+    .Kategoriheader {
+        background-color: #71091A;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navtext {
+        min-width: 500px;
+        min-height: 45px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #heroimg {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: 100% 5%;
+    }
+
+    .HeroText {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .PageObjectAllignment{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SpaceBetween{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .mediaFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produktbilde {
+        max-width: 65%;
+        width: auto;
+        height: 350px;
+
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        min-height: 275px;
+    }
+
+    .FooterAlignment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+
+    .MarginAround {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 150px;
+    }
+}
+
+/*--@Media under 500px--*/
+
+@media screen and (max-width: 500px) {
+    
+    h1 {
+        font-size: 2.5rem;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+        margin: 0;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+    a {
+        font-size: 0.75rem;
+        
+    }
+
+    .pris {
+        font-size: 0.90rem;
+    }
+
+    .headder {
+        height: 60px;
+    }
+
+    .bi-bi-cart2 {
+    height: 25px;
+    width: 25px;
+    }
+
+    .profilbilde {
+    height: 25px;
+    min-width: 25px;
+    }
+    
+    .navtext {
+        min-width: 300px;
+        min-height: 45px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #heroimg {
+        width: 100%;
+        height: 250px;
+    }
+
+    .kolleksjonsknapp {
+        height: 30px;
+        width: 150px;
+    }
+
+    .footer {
+        min-height: 250px;
+    }
+
+    .FooterAlignment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+
+    .MarginAround {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 125px;
+    }
+}
