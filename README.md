@@ -11,7 +11,7 @@ I tried doing the website as responsive as possible, and tested out different wa
 
 I still have a lot to learn, and I know there are 1000 different ways for me to do this better. 
 As for now I hope you enjoy my assignment :)
-<br>
+
 # This repository consists of:
 # HTML files
 Index.html
