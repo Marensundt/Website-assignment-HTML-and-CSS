@@ -43,4 +43,6 @@ Oppgave2CSSfil.css
 atmedia.css
   - the @Media changes to the website for responsiveness
 
-
+# Images
+a heap load of generated images
+and Me :)
